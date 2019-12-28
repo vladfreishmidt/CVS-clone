@@ -90,9 +90,16 @@
     </footer>
 
     <script>
-        setTimeout(() => {
-            document.getElementById('splash').classList.add('fade');
-        }, 2000);
+        // setTimeout(() => {
+        //     document.getElementById('splash').classList.add('fade');
+        // }, 2000);
+
+        document.addEventListener("DOMContentLoaded", () => {
+            setTimeout(() => {
+                document.getElementById('splash').classList.add('fade');
+            }, 500);
+        });
+
     </script>
 </body>
 
