@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <!-- <div id="splash">
+    <div id="splash">
         <img src="img/logo.png" alt="logo" class="logo">
-    </div> -->
+    </div>
 
     <div class="content">
         <header class="app-header">
@@ -88,6 +88,12 @@
             </li>
         </ul>
     </footer>
+
+    <script>
+        setTimeout(() => {
+            document.getElementById('splash').classList.add('fade');
+        }, 2000);
+    </script>
 </body>
 
 </html>
